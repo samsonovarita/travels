@@ -1,0 +1,80 @@
+@import url('./styles/header.css');
+@import url('./styles/lead.css');
+@import url('./styles/intro.css');
+@import url('./styles/photo-grid.css');
+@import url('./styles/places.css');
+@import url('./styles/video.css');
+@import url('./styles/additional.css');
+@import url('./styles/comments.css');
+@import url('./styles/cover.css');
+@import url('./styles/emblem.css');
+@import url('./styles/barentsburg.css');
+@import url('./styles/footer.css');
+
+html {
+    margin: 0 auto;
+}
+
+body {
+    background: #2A2C2F;
+
+main {
+    margin: 0 auto;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    min-width: 288px;
+    max-width: 1184px;
+    margin: 0 auto;
+    font-family: 'Inter';
+    background: #2A2C2F;
+    align-items: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    margin: 0;
+}
+
+h3 {
+    margin: 0;
+}
+
+h4 {
+    margin: 0;
+}
+
+h5 {
+    margin: 0;
+}
+
+h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+blockquote {
+    margin: 0;
+    font-style: normal;
+}
+
+cite {
+    margin: 0;
+    font-style: normal;
+}

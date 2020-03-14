@@ -1,0 +1,249 @@
+.comments {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1184px;
+    margin: 0 auto;
+    margin-top: 49px;
+}
+
+.comments__content-title {
+    width: 800px;
+    font-family: Inter;
+    font-size: 72px;
+    line-height: 108.9%;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 19px;
+}
+
+.commnets__content-subtitle {
+    width: 640px;
+    font-family: Inter;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: normal;
+}
+
+.comments__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1184px;
+    margin-top: 40px;
+}
+
+.comment {
+    width: 382px;
+}
+
+.comment__image {
+    width: 97px;
+	height: 97px;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+
+.comment__quote {
+    font-family: Inter;
+    font-size: 14px;
+    line-height: 23px;
+    color: #FFFFFF;
+    font-weight: normal;
+    margin: 0;
+    margin-top: 36px;
+    margin-bottom: 13px;
+}
+
+.comment__author {
+    margin-top: 14px;
+    font-family: Inter;
+    font-size: 14px;
+    line-height: 23px;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-style: normal;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .comments {
+        width: 100%;
+    }
+
+    .comments__content-title {
+        width: 76%;
+        margin-bottom: 0;
+        
+    }
+
+    .comments__container {
+        width: 92%;
+    }
+
+    .commnets__content-subtitle {
+        width: 64%;
+        margin-top: 18px;
+    }
+
+    .comment__quote {
+        width: 92%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .comments {
+        width: 100%;
+    }
+
+    .comments__content-title {
+        font-size: 42px;
+        line-height: 46px;
+        width: 90%;
+    }
+
+    .commnets__content-subtitle {
+        width: 93%;
+        margin-top: 12px;
+        font-size: 24px;
+        line-height: 34px;
+    }
+
+    .comments__container {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        margin-top: 0;
+    }
+
+    .comment {
+        margin-top: 41px;
+        width: 52%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .comment__image {
+        
+        order: 1;
+    }
+
+    .comment__author {
+        order: 2;
+    }
+
+    .comment__quote {
+        order: 3;
+        font-size: 16px;
+        line-height: 23px;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    .comments {
+        width: 100%;
+        margin-top: 28px;
+    }
+
+    .comments__content-title {
+        font-size: 32px;
+        line-height: 35px;
+        text-align: center;
+        width: 90%;
+    }
+
+    .commnets__content-subtitle {
+        width: 93%;
+        margin-top: 5px;
+        font-size: 16px;
+        line-height: 23px;
+        text-align: center;
+
+    }
+
+    .comments__container {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        margin-top: 0;
+    }
+
+    .comment {
+        margin-top: 27px;
+        width: 91%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .comment__image {
+        
+        order: 1;
+    }
+
+    .comment__author {
+        order: 2;
+    }
+
+    .comment__quote {
+        order: 3;
+        font-size: 16px;
+        line-height: 23px;
+    }
+}
+
+@media screen and (max-width: 374px) {
+    .comments {
+        width: 100%;
+        margin-top: 28px;
+    }
+
+    .comments__content-title {
+        font-size: 32px;
+        line-height: 35px;
+        text-align: center;
+        width: 90%;
+    }
+
+    .commnets__content-subtitle {
+        width: 93%;
+        margin-top: 5px;
+        font-size: 16px;
+        line-height: 23px;
+        text-align: center;
+
+    }
+
+    .comments__container {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        margin-top: 0;
+    }
+
+    .comment {
+        margin-top: 27px;
+        width: 91%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .comment__image {
+        
+        order: 1;
+    }
+
+    .comment__author {
+        order: 2;
+    }
+
+    .comment__quote {
+        order: 3;
+        font-size: 16px;
+        line-height: 23px;
+    }
+}

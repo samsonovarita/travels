@@ -1,0 +1,222 @@
+.cover {
+    position:relative;
+    width: 1184px;
+    margin: 0 auto;
+    margin-top: 97px;
+    height: 594px;
+    
+}
+
+.cover::before {
+    content: " ";
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    background-color: #000000;
+    opacity: 0.3;
+ }
+
+.cover-bg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background-image: url('../images/cover.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 594px;
+}
+
+.cover__title {
+    position: relative;
+    font-family: Inter;
+    font-size: 72px;
+    line-height: 78px;
+    text-align: center;
+    color: #FFFDFD;
+    margin-top: 278px;
+    z-index: 1;
+}
+
+.cover__subtitle {
+    position: relative;
+    font-family: Inter;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 59px;
+    width: 382px;
+    font-weight: normal;
+    z-index: 1;
+}
+
+.cover__link {
+    display: block; 
+    position: relative;
+    text-decoration: none;
+}
+
+.cover__link:after { 
+    content: ''; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    background: #2A2C2F;
+    opacity: 0.3;
+}
+/*
+.cover__link:before { 
+    content: '';
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    background: url(.cover-bg); 
+    opacity: 0; 
+}*/
+
+.cover__link:hover:before {
+
+}
+
+.cover__link:hover:after { 
+    opacity: 0.8; 
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .cover {
+        width: 100%;
+    }
+    .cover-bg {
+        max-height: 594px;
+    }
+
+    .cover__title {
+        margin-top: 227px;
+        z-index: 1;
+        width: 55%;
+    }
+
+    .cover__subtitle {
+        width: 36%;
+        margin-top: 17px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .cover {
+        width: 100%;
+    }
+    .cover-bg {
+        max-height: 65vw;
+    }
+
+    .cover__title {
+        margin-top: 174px;
+        margin-bottom: 51px;
+        z-index: 1;
+        width: 73%;
+    }
+
+    .cover__subtitle {
+        width: 47%;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .cover::before {
+        content: " ";
+        width: inherit;
+        height: 65vw;
+        position: absolute;
+        background-color: #000000;
+        opacity: 0.3;
+     }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    .cover {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 58px;
+        height: 72vw;
+    }
+
+    .cover-bg {
+        max-height: 72vw;
+    }
+
+    .cover__title {
+        font-size: 32px;
+        line-height: 35px;
+        text-align: center;
+        margin-top: 106px;
+        margin-bottom: 14px;
+        z-index: 1;
+        width: 59%;
+    }
+
+    .cover__subtitle {
+        width: 73%;
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+    }
+
+    .cover::before {
+        content: " ";
+        width: inherit;
+        height: 65vw;
+        position: absolute;
+        background-color: #000000;
+        opacity: 0.3;
+     }
+}
+
+
+@media screen and (max-width: 374px) {
+    .cover {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 58px;
+        height: 72vw;
+    }
+
+    .cover-bg {
+        max-height: 72vw;
+    }
+
+    .cover__title {
+        font-size: 32px;
+        line-height: 35px;
+        text-align: center;
+        margin-top: 106px;
+        margin-bottom: 14px;
+        z-index: 1;
+        width: 59%;
+    }
+
+    .cover__subtitle {
+        width: 73%;
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+    }
+
+    .cover::before {
+        content: " ";
+        width: inherit;
+        height: 65vw;
+        position: absolute;
+        background-color: #000000;
+        opacity: 0.3;
+     }
+}

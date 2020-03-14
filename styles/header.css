@@ -1,0 +1,97 @@
+.header {
+    display: flex;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-color: #2A2C2F;
+    min-width: 1184px;
+    max-width: 1184px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header__box {
+    display: flex;
+    position: relative;
+    height: 23px;
+    bottom: 0;
+    text-align: right;
+    width: 78px;
+    justify-content: space-between;
+    top: 19px;
+}
+
+.header__lang {
+    font-family: 'Inter';
+    font-size: 24px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.header__lang_Ru {
+    text-decoration: underline;
+}
+
+.header__lang_En {
+    text-decoration: none;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .header {
+        min-width: 89%;
+        max-width: 91%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .header {
+        min-width: 94%;
+        max-width: 94%;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    .header__lang {
+        font-size: 18px;
+        line-height: 96.82%;
+        
+    }
+    .header {
+        margin-top: 16px;
+        min-width: 91%;
+        max-width: 91%;
+    }
+
+    .header__box {
+        width: 74px;
+    }
+
+    .header__logo {
+        width: 142px;
+        height: 42px;
+    }
+}
+
+@media screen and (max-width: 374px) {
+    .header__lang {
+        font-size: 18px;
+        line-height: 17px;
+    }
+
+    .header__box {
+        width: 64px;
+    }
+
+    .header {
+        margin-top: 16px;
+        min-width: 91%;
+        max-width: 91%;
+    }
+
+    .header__logo {
+        width: 142px;
+        height: 42px;
+    }
+}
+
+

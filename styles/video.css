@@ -1,0 +1,430 @@
+.video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1184px;
+    margin: 0 auto;
+    margin-top: 64px;
+}
+
+.content__title {
+    width: 734px;
+    margin-bottom: 8px;
+    font-family: Inter;
+    font-size: 72px;
+    line-height: 78px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.content__subtitle {
+    width: 640px;
+    font-family: Inter;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: normal;
+}
+
+.video__container {
+    width: 1184px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.video__item {
+    display: flex;
+    position: relative;
+    width: 583px;
+    height: 323px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.video-item__bg_kamchatka {
+    border-radius: 5px;
+    width: 583px;
+    height: 323px;
+    background-image: url('../images/kamchatka.jpg');
+    background-size: contain;
+}
+
+.video-item__bg_observatory {
+    border-radius: 5px;
+    width: 583px;
+    height: 323px;
+    background-image: url('../images/observatory.jpg');
+    background-size: contain;
+}
+
+.video-icon__play {
+    /*position: absolute;
+    top: 30px;
+    left: 30px;*/
+    width: 41px;
+    height: 41px;
+    background-image: url('../images/icon_play.svg');
+    background-size: contain;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.video-item__duration {
+    /*position: absolute;
+    top: 165px;
+    left: 30px;*/
+    width: 44px;
+    font-family: Inter;
+    font-size: 12px;
+    line-height: 13px;
+    letter-spacing: 0.3em;
+    color: #FFFFFF;
+    margin-left: 30px;
+    margin-top: 93px;
+}
+
+.video-tem__title {
+    /*position: absolute;
+    top: 156px;
+    left: 30px;*/
+    width: 322px;
+    font-family: Inter;
+    font-size: 36px;
+    line-height: 39px;
+    color: #FFFFFF;
+    margin-left: 30px;
+    margin-top: 13px;
+    margin-bottom: 10px;
+}
+
+.video-item__subtitle {
+    /*position: absolute;
+    top: 266px;
+    left: 30px;*/
+    font-family: Inter;
+    font-size: 14px;
+    line-height: 15px;
+    color: #FFFFFF;
+    margin-left: 30px;
+    margin-top: 0;
+}
+
+.video__link {
+    display: block; 
+    position: relative;
+    text-decoration: none;
+}
+
+.video__link:after { 
+    content: ''; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    background: rgba(0,0,0,.5);  
+    opacity: 0; 
+}
+
+.video__link:before { 
+    content: '';
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    background: url(icon-path); 
+    opacity: 0; 
+}
+
+.video__link:hover:before {
+
+}
+
+.video__link:hover:after { 
+    opacity: 0.8; 
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .video {
+        width: 91%;
+        margin: 0 auto;
+        margin-top: 0px;
+    }
+
+    .video__container {
+        width: 100%;
+        max-height: 288px;
+    }
+
+    .video__link {
+        width: 49%;
+        height: 28vw;
+    }
+
+    .video__item {
+        width: 100%;
+        height: 28vw;
+    }
+
+    .video-item__duration {
+        margin-top: 54px;
+    }
+
+    .video-item__bg_kamchatka, .video-item__bg_observatory {
+        width: 100%;
+        height: 50vw;
+        background-size: cover;
+    }
+
+    .video-item__bg_kamchatka {
+       /* width: 100%;
+        height: 100%;*/
+    }
+
+    .video-item__bg_observatory {
+       /* width: 100%;
+        height: 100%;*/
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .video {
+        width: 94%;
+        margin: 0 auto;
+        margin-top: 0px;
+        margin-top: 29px;
+    }
+
+    .content__title {
+        margin-top: 73px;
+        font-size: 42px;
+        line-height: 46px;
+        width: 59%;
+    }
+
+    .video__container {
+        width: 100%;
+        max-height: 288px;
+        margin-top: 23px;
+    }
+
+    .video__link {
+        width: 49%;
+        height: 28vw;
+    }
+
+    .video__item {
+        width: 100%;
+        height: 26vw;
+        display: flex;
+        
+    }
+
+    .video-item__bg_kamchatka, .video-item__bg_observatory {
+        width: 100%;
+        height: 26vw;
+        background-size: cover;
+    }
+
+    .video-item__duration {
+        font-size: 12px;
+        line-height: 13px;
+        letter-spacing: 0.3em;
+        margin-left: 25px;
+        margin-top: 37px;
+    }
+
+    .video-tem__title {
+        font-size: 24px;
+        line-height: 26px;
+        margin-left: 25px;
+        margin-top: 7px;
+    }
+
+    .video-item__subtitle {
+        font-size: 14px;
+        line-height: 15px;
+    }
+
+    .video-icon__play {
+        position: relative;
+        margin-left: 25px;
+        margin-top: 25px;
+    }
+
+    .video-item__duration_ob {
+        margin-top: 11px;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    .video {
+        width: 92%;
+        margin: 0 auto;
+        margin-top: 0px;
+        margin-top: 29px;
+    }
+
+    .content__title {
+        margin-top: 43px;
+        width: 93%;
+        font-size: 32px;
+        line-height: 35px;
+    }
+
+    .content__subtitle {
+        width: 93%;
+        /* font-family: Inter; */
+        /* font-size: 24px; */
+        line-height: 34px;
+        text-align: center;
+        color: #FFFFFF;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 23px;
+        text-align: center;
+    }
+
+    .video__container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        /* max-height: 288px; */
+        margin-top: 0;
+    }
+
+    .video__link {
+        /*width: 49%;*/
+    }
+
+    .video__item {
+        width: 100%;
+        display: flex;
+        height: 55vw;
+        margin-top: 8px;
+    }
+
+    .video-item__bg_kamchatka, .video-item__bg_observatory {
+        width: 100%;
+        background-size: cover;
+    }
+
+    .video-item__duration {
+        font-size: 12px;
+        line-height: 13px;
+        letter-spacing: 0.3em;
+        margin-left: 25px;
+        margin-top: 37px;
+    }
+
+    .video-tem__title {
+        font-size: 24px;
+        line-height: 26px;
+        margin-left: 25px;
+        margin-top: 7px;
+    }
+
+    .video-item__subtitle {
+        font-size: 14px;
+        line-height: 15px;
+    }
+
+    .video-icon__play {
+        position: relative;
+        margin-left: 25px;
+        margin-top: 25px;
+    }
+
+    .video-item__duration_ob {
+        margin-top: 11px;
+    }
+}
+
+@media screen and (max-width: 374px) {
+    .video {
+        width: 92%;
+        margin: 0 auto;
+        margin-top: 0px;
+        margin-top: 29px;
+    }
+
+    .content__title {
+        margin-top: 43px;
+        width: 93%;
+        font-size: 32px;
+        line-height: 35px;
+    }
+
+    .content__subtitle {
+        width: 93%;
+        /* font-family: Inter; */
+        /* font-size: 24px; */
+        line-height: 34px;
+        text-align: center;
+        color: #FFFFFF;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 23px;
+        text-align: center;
+    }
+
+    .video__container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        /* max-height: 288px; */
+        margin-top: 0;
+    }
+
+    .video__link {
+        /*width: 49%;*/
+    }
+
+    .video__item {
+        width: 100%;
+        display: flex;
+        height: 55vw;
+        margin-top: 8px;
+    }
+
+    .video-item__bg_kamchatka, .video-item__bg_observatory {
+        width: 100%;
+        background-size: cover;
+    }
+
+    .video-item__duration {
+        font-size: 12px;
+        line-height: 13px;
+        letter-spacing: 0.3em;
+        margin-left: 25px;
+        margin-top: 37px;
+    }
+
+    .video-tem__title {
+        font-size: 24px;
+        line-height: 26px;
+        margin-left: 25px;
+        margin-top: 7px;
+    }
+
+    .video-item__subtitle {
+        font-size: 14px;
+        line-height: 15px;
+    }
+
+    .video-icon__play {
+        position: relative;
+        margin-left: 25px;
+        margin-top: 25px;
+    }
+
+    .video-item__duration_ob {
+        margin-top: 11px;
+    }
+}

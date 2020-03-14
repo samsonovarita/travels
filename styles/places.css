@@ -1,0 +1,385 @@
+.places {
+    margin: 0 auto;
+    margin-top: 92px;
+    align-items: center;
+    width: 984px;
+}
+
+.place__head {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+
+.place__title {
+    width: 457px;
+    font-family: Inter;
+    font-size: 72px;
+    line-height: 65px;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+
+.place__website {
+    width: 484px;
+    margin-top: 75px;
+}
+
+.place__url-heading {
+    font-family: Inter;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.2em;
+    color: #AAAAAA;
+    margin-top: 10px;
+}
+
+.place__url {
+    font-family: Inter;
+    font-size: 18px;
+    line-height: 30px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+
+.place__info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.place__image {
+    width: 460px;
+    height: 460px;
+}
+
+.place__image_kosa {
+    width: 460px;
+    height: 460px;
+    background-image: url('../images/kosa.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.place__text {
+    width: 484px;
+}
+
+.place__paragraph {
+    width: 484px;
+    font-family: Inter;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.paragraph_two {
+    width: 484px;
+    font-family: Inter;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+.place__title_two {
+    width: 457px;
+    font-family: Inter;
+    font-size: 72px;
+    line-height: 65px;
+    color: #FFFFFF;
+    margin-top: 82px;
+    margin-bottom: 15px;
+}
+
+.place__url-heading_two {
+    font-family: Inter;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.2em;
+    color: #AAAAAA;
+    margin-top: 25px;
+}
+
+.place__info_two {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 52px;
+    margin-top: 34px;
+}
+
+.place__image_kolsky {
+    width: 460px;
+    height: 460px;
+    background-image: url('../images/kolsky.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.place__image_altai {
+    width: 460px;
+    height: 460px;
+    background-image: url('../images/altai.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.place__image_baikal {
+    width: 460px;
+    height: 460px;
+    background-image: url('../images/winter-baikal.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.place__website_baikal {
+    width: 484px;
+    margin-top: 132px;
+}
+
+.place__image_kareliya {
+    width: 460px;
+    height: 460px;
+    background-image: url('../images/karelia.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .places {
+        margin-top: 119px;
+        width: 90%;
+    }
+
+    .place__title {
+        width: 48%;
+    }
+
+    .place__title_two {
+        margin-top: 67px;
+    }
+
+    .place__website {
+        margin-top: 54px;
+    }
+
+    .place__website {
+        width: 49%;
+        margin-top: 70px;
+    }
+
+    .place__website_baikal {
+        width: 49%;
+    }
+
+    .place__image {
+        width: 47%;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .place__image_kosa, .place__image_kolsky, .place__image_altai, .place__image_baikal, .place__image_kareliya  {
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .place__text {
+        width: 49%;
+    }
+
+    .place__paragraph {
+        width: 100%;
+    }
+
+    .paragraph_two {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .places {
+        margin-top: 119px;
+        width: 94%;
+    }
+    .place {
+        width: 100%;
+    }
+
+    .place__title {
+        font-family: Inter;
+        font-size: 42px;
+        line-height: 46px;
+        color: #FFFFFF;
+        margin-top: 10px;
+        width: 48%;
+    }
+
+    .place__title_two {
+        margin-top: 65px;
+        font-size: 42px;
+        line-height: 46px;
+        width: 47%;
+    }
+
+    .place__website {
+        margin-top: 54px;
+    }
+
+    .place__website {
+        width: 49%;
+        margin-top: 11px;
+    }
+
+    .place__website_baikal {
+        width: 49%;
+        margin-top: 0px;
+    }
+
+    .place__info {
+        margin-top: 35px;
+    }
+
+    .place__image {
+        width: 47%;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .place__image_kosa, .place__image_kolsky, .place__image_altai, .place__image_baikal, .place__image_kareliya  {
+        width: 100%;
+        height: 45vw;
+        margin-top: 9px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .place__text {
+        width: 49%;
+    }
+
+    .place__paragraph {
+        width: 100%;
+        font-size: 16px;
+        line-height: 27px;
+    }
+
+    .paragraph_two {
+        width: 100%;
+    }
+
+    .place__url-heading_two {
+        margin-top: 56px;
+    }
+
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    .places {
+        margin-top: 57px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .place__head {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .place__title, .place__title_two {
+        width: 91%;
+        font-size: 32px;
+        line-height: 35px;
+    }
+
+    .place__website, .place__url, .place__url-heading_two, .place__website_baikal, .place__url-heading {
+        display: none;
+    }
+
+    .place__info, .place__info_two {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .place {
+        width: 100%;
+    }
+
+    .place__image, .place__image_altai, .place__image_baikal, .place__image_kareliya, .place__image_kolsky, .place__image_kosa {
+        width: 100%;
+        height: 100vw;
+    }
+
+    .place__text {
+        width: 91%;
+        margin-top: 22px;
+        font-size: 16px;
+        line-height: 27px;
+    }
+
+    .place__paragraph {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 374px) {
+    .places {
+        margin-top: 57px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .place__head {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .place__title, .place__title_two {
+        width: 91%;
+        font-size: 32px;
+        line-height: 35px;
+    }
+
+    .place__website, .place__url, .place__url-heading_two, .place__website_baikal, .place__url-heading {
+        display: none;
+    }
+
+    .place__info, .place__info_two {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .place {
+        width: 100%;
+    }
+
+    .place__image, .place__image_altai, .place__image_baikal, .place__image_kareliya, .place__image_kolsky, .place__image_kosa {
+        width: 100%;
+        height: 100vw;
+    }
+
+    .place__text {
+        width: 91%;
+        margin-top: 22px;
+        font-size: 16px;
+        line-height: 27px;
+    }
+
+    .place__paragraph {
+        width: 100%;
+    }
+}
